@@ -7,13 +7,11 @@ h1{
 .documentation{
     padding:30px;
 }
-.conclusion{
+#conclusion{
     padding:30px;
 
 }
-#conclusion{
-    
-}
+
 h3{
     padding:10px;
     font-family: Montserrat, serif ;
@@ -29,7 +27,7 @@ header{
     
 }
 
-.custom-shape-divider-top-1738063738 {
+/* .custom-shape-divider-top-1738063738 {
     position: absolute;
     top: 0;
     left: 0;
@@ -43,7 +41,45 @@ header{
     display: block;
     width: calc(172% + 1.3px);
     height: 111px;
+} */
+.custom-shape-divider-top-1738167729 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
 }
-#doc{
+
+.custom-shape-divider-top-1738167729 svg {
+    position: relative;
+    display: block;
+    width: calc(136% + 1.3px);
+    height: 78px;
+}
+
+.custom-shape-divider-top-1738167729 .shape-fill {
+    fill: #F4C386;
+}
+6
+.shape{
+    padding:30px;
     background-color: var(--third-color);
+}
+
+
+
+p{
+    padding-left: 219px;
+  padding-right: 198px;
+}
+
+h2{
+    padding-left: 219px;
+  padding-right: 198px;
+}
+
+h3{
+    padding-left: 219px;
+  padding-right: 198px;
 }

@@ -2,7 +2,8 @@
 
 
 :root {
-    /* Couleur principale */    --primary-color: #FF944C;
+    /* Couleur principale */
+    --primary-color: #FF944C;
 
     --secondary-color: #402715;
     /* Couleur secondaire */
@@ -26,8 +27,9 @@ section {
 
 }
 
-#heropage{
-    background-image: url("medias/iconcapture.png");
+#heropage {
+    background-image: linear-gradient(rgb(255 255 255 / 0%), rgb(255 255 255)),
+        url(medias/iconcapture.png);
 }
 
 
@@ -84,11 +86,11 @@ p {
     line-height: 2;
 }
 
-.margin_p{
+.margin_p {
     margin-bottom: 40px;
 }
 
-.margin_h2{
+.margin_h2 {
     margin-top: 40px;
 }
 
@@ -111,7 +113,7 @@ p {
 #Cmnt_div {
     text-align: center;
     margin-right: 200px;
-  margin-left: 200px;
+    margin-left: 200px;
 
 
 }
@@ -134,6 +136,10 @@ p {
     padding: 50px;
     gap: 25px;
     text-align: center;
+}
+
+.h2_card{
+    font-size: 1.3em;
 }
 
 .cardlogo {
@@ -207,13 +213,16 @@ p {
     gap: 10px;
     box-shadow: rgb(0, 0, 0, 0.25) 2px 4px 4px 0px;
 }
+#card_avis{
+    margin-right: 66px;
+}
 
-.visage_avis{
+.visage_avis {
     height: 100px;
     width: 100px;
 }
 
-.P_avis{
+.P_avis {
     color: var(--primary-color);
     font-family: "Quicksand", serif;
 
