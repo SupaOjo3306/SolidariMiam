@@ -1,4 +1,49 @@
 @import url("style.css");
+
 h1{
     text-align: center;
+}
+
+.documentation{
+    padding:30px;
+}
+.conclusion{
+    padding:30px;
+
+}
+#conclusion{
+    
+}
+h3{
+    padding:10px;
+    font-family: Montserrat, serif ;
+    font-weight: 500;
+   
+}
+header{
+
+    /* background-repeat: no-repeat;
+    background: cover; */
+    background-image: url("medias/iconcapture.png");
+    padding-top: 68px;
+    
+}
+
+.custom-shape-divider-top-1738063738 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1738063738 svg {
+    position: relative;
+    display: block;
+    width: calc(172% + 1.3px);
+    height: 111px;
+}
+#doc{
+    background-color: var(--third-color);
 }

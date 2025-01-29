@@ -1,14 +1,15 @@
+@import url("style.css");
 
 
 :root {
-    --primary-color: #FF944C;
-    /* Couleur principale */
+    /* Couleur principale */    --primary-color: #FF944C;
+
     --secondary-color: #402715;
     /* Couleur secondaire */
     /* --background-color: #FAF0D5;  */
     --third-color: #FAF0D5;
     --fourth-color: #FFF8F4;
-    
+
     --border-radius: 10px;
     /* Rayon des bordures */
 }
@@ -22,6 +23,11 @@
 section {
     width: 100%;
 
+
+}
+
+#heropage{
+    background-image: url("medias/iconcapture.png");
 }
 
 
@@ -29,6 +35,7 @@ section {
 #logonav {
     height: 130px;
     width: 130px;
+    margin-left: 30px;
 }
 
 nav {
@@ -77,6 +84,14 @@ p {
     line-height: 2;
 }
 
+.margin_p{
+    margin-bottom: 40px;
+}
+
+.margin_h2{
+    margin-top: 40px;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -85,18 +100,19 @@ p {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
+    padding-bottom: 115px;
 }
 
-#Ellipse4{
+#Ellipse4 {
     height: auto;
     width: 403px;
 }
 
-#Cmnt_div{
+#Cmnt_div {
     text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    
+    margin-right: 200px;
+  margin-left: 200px;
+
 
 }
 
@@ -139,7 +155,7 @@ p {
 
 
 
-.content{
+.content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -147,11 +163,11 @@ p {
     width: 100%;
 }
 
-#avis_wrapper{
+#avis_wrapper {
     width: 100%;
 }
 
-.avis_container{
+.avis_container {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -159,31 +175,50 @@ p {
 
 }
 
-.card_note{
+.card_note {
     background-image: url("medias/background_note.png");
-background-size: cover;
-background-size: cover;
-  width: 68%;
-  background-repeat: no-repeat;
-  aspect-ratio: 1.54;
-  position: relative;
-  div{
-    position: absolute;
-    top: 30%;
-    left: 15%;
+    background-size: cover;
+    background-size: cover;
+    width: 68%;
+    background-repeat: no-repeat;
+    aspect-ratio: 1.54;
+    position: relative;
 
-  }
+    div {
+        position: absolute;
+        top: 30%;
+        left: 15%;
+
+    }
 }
 
-.card_avis{
+.card_avis {
     width: fit-content;
     background-color: var(--fourth-color);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 24px;
+    height: fit-content;
+    margin-top: 6%;
+    margin-left: -66px;
+    z-index: 1;
+    border-radius: 10px;
+    gap: 10px;
+    box-shadow: rgb(0, 0, 0, 0.25) 2px 4px 4px 0px;
 }
 
+.visage_avis{
+    height: 100px;
+    width: 100px;
+}
+
+.P_avis{
+    color: var(--primary-color);
+    font-family: "Quicksand", serif;
+
+
+}
 
 
 
@@ -274,9 +309,9 @@ background-size: cover;
 footer {
     background-color: var(--secondary-color);
     background: #402715;
-    background: linear-gradient(0deg, #402715 20%, #faf0d5 110%);
-    background: -webkit-linear-gradient(0deg, #402715 20%, #faf0d5 110%);
-    background: -moz-linear-gradient(0deg, #402715 20%, #faf0d5 110%);
+    background: linear-gradient(0deg, #402715 20%, #8c6040 110%);
+    background: -webkit-linear-gradient(0deg, #402715 20%, #8c6040 110%);
+    background: -moz-linear-gradient(0deg, #402715 20%, #8c6040 110%);
     text-align: center;
 }
 
