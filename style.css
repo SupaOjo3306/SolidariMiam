@@ -46,6 +46,9 @@ section {
 
 }
 
+
+
+
 .heropage {
     background-image: linear-gradient(rgb(255 255 255 / 0%), rgb(255 255 255)),
         url(medias/iconcapture.png);
@@ -152,6 +155,9 @@ p {
     max-width: 1200px;
     padding: 1rem;
     margin: 0 auto;
+}
+.is-centered{
+    text-align: center;
 }
 
 .item {
