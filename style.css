@@ -362,12 +362,9 @@ p {
 }
 
 /** For mobile devices **/
-@media (max-width: 767px) {
-    .custom-shape-divider-top-1738063738 svg {
-        width: calc(276% + 1.3px);
-        height: 111px;
-    }
-}
+
+    
+    
 
 
 
