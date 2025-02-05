@@ -31,8 +31,10 @@
 
 
 
-   <section id="heropage">
-      <h1 id="documentation">Documentation</h1>
+   <section class="heropage">
+      <div class="container">
+         <h1 id="title" class="text-align">Documentation</h1>
+      </div>
    </section>
 
 
@@ -56,7 +58,7 @@
          </svg>
       </div>
       <!-- Shape divider TOP -->
-      <div class="texte">
+      <div class="container">
          <h2>Contexte</h2>
          <p>Notre projet est une application mobile qui permet aux commerçants de proposer sous forme de panier des
             invendus
@@ -79,15 +81,21 @@
       <!-- shape dividercmntF -->
    </section>
 
-   <section class="documentation">
-      <div class="texte">
+   <section class="documentation" id="">
+      <div class="container">
          <h2>Notre Mission ?</h2>
          <p> Réduire le gaspillage alimentaire : En redistribuant les excédents alimentaires, nous contribuons à une
             gestion plus durable des ressources.
             Lutter contre la précarité alimentaire étudiante : Nous voulons garantir que chaque étudiant ait accès à une
             alimentation saine et équilibrée, quel que soit son niveau de revenu</p>
       </div>
-      <img src="medias/Persona.svg" alt="">
+      <div class="container">
+         <h2>Personas :</h2>
+         <div class="personadiv">
+            <img src="medias/Persona_Marie2.svg" alt="" class="persona">
+            <img src="medias/persona_alex4.svg" alt="" class="persona">
+         </div>
+      </div>
    </section>
 
    <section class="shape">
@@ -100,7 +108,7 @@
          </svg>
       </div>
       <!-- Shape divider TOP -->
-      <div id="cmntF" class="texte">
+      <div id="process-appli-container" class="container">
          <h2>Comment ça fonctionne ?</h2>
          <h3>Redistribution aux Étudiants</h3>
          <p>Les étudiants peuvent s'inscrire sur notre application pour accéder à des repas ou à des produits
@@ -127,22 +135,31 @@
 
    <div class="image-container">
       <img src="medias/FrameCommercant.png" alt="Description de l'image">
-  </div>
+      <img src="medias/FrameEtudiant (2).png" alt="Description de l'image">
+   </div>
 
    <section class="documentation">
-      <div class="texte">
+      <div class="container">
          <h2>Services</h2>
-         <h3>Commerçant :</h3>
+         <h3>Commerçant</h3>
          <p>Notre solution aide les commerçants à réduire le gaspillage alimentaire, soutenir les plus démunis, et
             rembourser
             leurs invendus grâce aux dons. Elle permet d’organiser les paniers, réduire les surplus, programmer les
             récupérations, et alerter les bénéficiaires via des notifications.</p>
-         <h3>Etudiant :</h3>
+         <div class="image-container">
+      <img src="medias/userflow_commerçant.svg" alt="">
+       </div>
+            <h3>Etudiant</h3>
          <p>Dans un premier temps, l’utilisateur se rend sur l’application, observe les différents paniers proposés et
             réserve celui qui l’intéresse. L’utilisateur peut ensuite se rendre sur le lieu souhaité, et récupére son
             panier préalablement choisi.
             Ce fonctionnement permet aux étudiants de se procurer de la nourriture de manière simple et efficace.</p>
-      </div>
+            <div class="image-container">
+               <img src="medias/userflow.svg" alt="">
+            </div>
+         </div>
+      
+      
       <div class="wireframecoulissant">
          <img src="medias/wireframe.svg" alt="">
       </div>
@@ -153,7 +170,7 @@
    </section>
 
    <section class="documentation">
-      <div class="texte">
+      <div class="container">
          <h2> Haute Fidélité</h2>
          <p>Notre version haute fidélité (Mock-up) représente le design final de l'application, intégrant les
             améliorations
@@ -161,35 +178,34 @@
             expérience fluide et intuitive.
             Cette version se décline en deux interfaces : </p>
       </div>
-      <h3>Version destinée aux étudiants</h3>
-      <p>Voici l'interface de l'application du côté du bénéficiaire (etudiant).</p>
-      <div class="iframe" style="width: 100%; max-width: 300px; aspect-ratio: 300 / 500; position: relative;">
-         <iframe style="border: none; width: 100%; height: 100%;"
-            src="https://embed.figma.com/proto/D1v7ZC8ahNa0BwyMz7yEAr/Lyon--Projet-groupe-3?page-id=1:2&node-id=744-5475&viewport=1567,77,0.08&scaling=scale-down&content-scaling=fixed&starting-point-node-id=744:5475&show-proto-sidebar=1&embed-host=share"
-            allowfullscreen>
-         </iframe>
-      </div>
-      <h3>Version destinée aux commerçants</h3>
-      <p>Voici l'interface du commerçant pour créer et publier son panier. </p>
-      <div class="iframe"
-         style="width: 100%; max-width: 300px; aspect-ratio: 300 / 500; position: relative; margin-top: 20px;">
-         <iframe style="border: none; width: 100%; height: 100%;"
-            src="https://embed.figma.com/proto/D1v7ZC8ahNa0BwyMz7yEAr/Lyon--Projet-groupe-3?page-id=1:2&node-id=287-4335&viewport=1567,77,0.08&scaling=scale-down&content-scaling=fixed&starting-point-node-id=287:4335&show-proto-sidebar=1&embed-host=share"
-            allowfullscreen>
-         </iframe>
+      <div class="container">
+         <h3>Version destinée aux étudiants</h3>
+         <p>Voici l'interface de l'application du côté du bénéficiaire (etudiant).</p>
+         <div class="iframe" style="width: 100%; max-width: 300px; aspect-ratio: 300 / 500; position: relative;">
+            <iframe style="border: none; width: 100%; height: 100%;"
+               src="https://embed.figma.com/proto/D1v7ZC8ahNa0BwyMz7yEAr/Lyon--Projet-groupe-3?page-id=1:2&node-id=744-5475&viewport=1567,77,0.08&scaling=scale-down&content-scaling=fixed&starting-point-node-id=744:5475&show-proto-sidebar=1&embed-host=share"
+               allowfullscreen>
+            </iframe>
+         </div>
+         <h3>Version destinée aux commerçants</h3>
+         <p>Voici l'interface du commerçant pour créer et publier son panier. </p>
+         <div class="iframe"
+            style="width: 100%; max-width: 300px; aspect-ratio: 300 / 500; position: relative; margin-top: 20px;">
+            <iframe style="border: none; width: 100%; height: 100%;"
+               src="https://embed.figma.com/proto/D1v7ZC8ahNa0BwyMz7yEAr/Lyon--Projet-groupe-3?page-id=1:2&node-id=287-4335&viewport=1567,77,0.08&scaling=scale-down&content-scaling=fixed&starting-point-node-id=287:4335&show-proto-sidebar=1&embed-host=share"
+               allowfullscreen>
+            </iframe>
+         </div>
+
       </div>
       <!-- <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/D1v7ZC8ahNa0BwyMz7yEAr/Lyon--Projet-groupe-3?page-id=1%3A2&node-id=744-5475&viewport=1567%2C77%2C0.08&scaling=scale-down&content-scaling=fixed&starting-point-node-id=744%3A5475&show-proto-sidebar=1&embed-host=share" allowfullscreen></iframe> -->
    </section>
    <section class="documentation" id="doc">
-      <div class="texte">
+      <div class="container">
 
 
 
          <h2> Avenir ?</h2>
-
-         <p>Notre application est conçue pour évoluer en fonction des besoins des utilisateurs et des partenaires. Voici
-            quelques pistes d’amélioration pour les prochaines versions :</p><br>
-
          <p>
             Élargir les partenariats : Collaborer avec divers types d'entreprises (restaurants, supermarchés,
             producteurs
@@ -225,7 +241,7 @@
          </svg>
       </div>
       <!-- Shape divider TOP -->
-      <div class="texte">
+      <div class="container">
          <h2>Conclusion</h2>
          <p>Notre plateforme est bien plus qu'un simple service de redistribution alimentaire. C’est un véritable outil
             de
@@ -247,11 +263,14 @@
 
 
    <section class="documentation">
-      <h3>Contactez-nous</h3>
-      <p>Si vous avez des questions ou si vous souhaitez plus d'informations, n’hésitez pas à nous contacter :</p>
-      <p> Email : solidarimiam@redistribution-etudiante.com </p>
-      <p> Téléphone : 01 23 45 67 89 </p>
-      <p> Adresse : 12 Rue d’Algérie, 69002 Lyon</p>
+      <div class="container">
+         <h3>Contactez-nous</h3>
+         <p>Si vous avez des questions ou si vous souhaitez plus d'informations, n’hésitez pas à nous contacter :</p>
+         <p> Email : solidarimiam@redistribution-etudiante.com </p>
+         <p> Téléphone : 01 23 45 67 89 </p>
+         <p> Adresse : 12 Rue d’Algérie, 69002 Lyon</p>
+
+      </div>
    </section>
 
 
@@ -267,18 +286,19 @@
       <!-- shape divider -->
 
       <div class="slogan-container">
-         <h3>Transformez l'inutile en utile</h3>
-         <img src="/medias/recycle.png">
-         <h3>avec "Solidari Miam"</h3>
+         <h2>Transformez l'inutile en utile
+            <img src="medias/recycle.png">
+            avec "Solidari Miam"
+         </h2>
       </div>
 
 
       <div class="store-buttons">
          <a href="#" class="google-play">
-            <img src="/medias/logoGooglePlay.png" alt="Google Play">
+            <img src="medias/logoGooglePlay.png" alt="Google Play">
          </a>
          <a href="#" class="app-store">
-            <img src="/medias/logoAppstore.png" alt="App Store">
+            <img src="medias/logoAppstore.png" alt="App Store">
          </a>
       </div>
 
@@ -295,25 +315,25 @@
       <div id="footer-co2">Cette page web émet environ 1,73 g de CO2.</div>
 
       <section class="footer-social">
-         <a href="#"><img src="/medias/twitter.png" alt="Twitter"></a>
-         <a href="#"><img src="/medias/linkedin.png" alt="LinkedIn"></a>
-         <a href="#"><img src="/medias/facebook.png" alt="Facebook"></a>
-         <a href="#"><img src="/medias/instagram.png" alt="Instagram"></a>
+         <a href="#"><img src="medias/twitter.png" alt="Twitter"></a>
+         <a href="#"><img src="medias/linkedin.png" alt="LinkedIn"></a>
+         <a href="#"><img src="medias/facebook.png" alt="Facebook"></a>
+         <a href="#"><img src="medias/instagram.png" alt="Instagram"></a>
       </section>
 
-      <p class="footer-legal">
+      <div class="footer-legal">
          <a href="#"> Mentions légales | </a>
          <a href="#">Conditions générales d'utilisation |</a>
          <a href="#">Politique de confidentialité |</a>
          <a href="#">Gestion des cookies </a>
 
-      </p>
-
+      </div>
 
       <p class="footer-droit">
          Solidari Miam © 2025 Conçu avec ❤️ par le Groupe 3 de La Toile
       </p>
    </footer>
+
 </body>
 
 </html>
